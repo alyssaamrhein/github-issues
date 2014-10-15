@@ -22,7 +22,7 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>Issues.</h1>
+    <h1>Issues</h1>
     <div class="main">
       <div id="target"></div>
       <div class="newNew"></div>
@@ -30,7 +30,14 @@
 
 
     <script type="text/template" id="theTemplate">
-      <%= id =>
+      <div class="container">
+      <h1><%= number + '.' %></h1>
+      <h2><%= title %></h2>
+      <%= body %>
+      <br>
+      <%= url %>
+      <h4><%= state %></h4>
+      </div>
     </script>
 
     <script src="../bower_components/jquery/dist/jquery.js"></script>

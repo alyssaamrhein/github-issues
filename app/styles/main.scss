@@ -16,10 +16,31 @@ h1 {
 
 .main {
   background-color: white;
-  margin: 0 10%;
+  margin: 0 8%;
+  padding: 1em;
+}
+
+.container {
+  padding: 1.5em;
+
+  h1{
+    color: RGBA(136, 53, 55, 1);
+    display: inline-block;
+    margin: 0;
+  }
+  h2{
+    display: inline-block;
+    padding: 0 .25em;
+  }
+  h4{
+    position: relative;
+    top: -6em;
+    left: 90%;
+  }
 }
 
 .newNew {
   background-color: black;
   color: white;
+  display: none;
 }
