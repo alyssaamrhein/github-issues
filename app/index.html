@@ -22,21 +22,22 @@
     <!-- endbuild -->
   </head>
   <body>
-
-    <div class="hero-unit">
-      <h1>You have issues.</h1>
-        
+    <h1>Issues.</h1>
+    <div class="main">
+      <div id="target"></div>
+      <div class="newNew"></div>
     </div>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
+
+    <script type="text/template" id="theTemplate">
+      <%= id =>
+    </script>
+
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <script src="scripts/github_token.js"></script>
+    <script src="scripts/main.js"></script>
+
 </body>
 </html>
